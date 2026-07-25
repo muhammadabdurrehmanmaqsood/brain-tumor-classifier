@@ -216,3 +216,14 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Machine Learning Specifics
+/data/
+*.h5
+*.pt
+*.pth
+*.weights
+*.onnx
+/models/
+# Ignore Colab checkpoints
+.ipynb_checkpoints/
