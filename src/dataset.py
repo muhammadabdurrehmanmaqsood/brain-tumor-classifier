@@ -4,7 +4,7 @@ from torchvision import datasets, transforms
 from torch.utils.data import DataLoader, random_split
 
 def get_data_loaders(data_dir='/content/dataset/Training', batch_size=32, val_split=0.15, seed=42):
-    #Creates and returns training and validation DataLoaders with proper augmentations.
+    # Creates and returns training and validation DataLoaders with proper augmentations.
     # 1. Define augmentations for training
     train_transforms = transforms.Compose([
         transforms.Resize((224, 224)),
